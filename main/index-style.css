@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  color: #000000;
+  color: #FFFFF;
   text-align: center;
   padding: 0px;
   margin: 20px;
@@ -13,7 +13,7 @@ h1 {
 }
 
 p {
-  color: #000000;
+  color: #FFFFFF;
   text-align: center;
   margin: 20px;
   padding: 0px;
@@ -21,7 +21,7 @@ p {
 }
 
 ul {
-  color: #000000;
+  color: #FFFFFF;
   list-style: none;
   color: #FFFFFF;
   padding: 0px;
@@ -30,7 +30,7 @@ ul {
 }
 
 li {
-  color: #FFFFFF;
+  color: #FFFFFF; 
   padding: 10px;
   margin: 0px;
   font-size: 30px;
