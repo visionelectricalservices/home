@@ -1,6 +1,5 @@
 body {
   background-color: #1D1717;
-  font-size: 30px;
   padding: 0px;
   margin: 100px;
 }
@@ -10,6 +9,7 @@ h1 {
   text-align: center;
   padding: 0px;
   margin: 20px;
+  font-size: 50px;
 }
 
 p {
@@ -17,6 +17,7 @@ p {
   text-align: center;
   margin: 20px;
   padding: 0px;
+  font-size: 30px;
 }
 
 ol {
@@ -33,6 +34,7 @@ li {
   text-align: center;
   padding: 0px;
   margin: 0px;
+  font-size: 30px;
 }
 
 a {
