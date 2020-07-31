@@ -40,6 +40,10 @@ a {
   text-align: center;
 }
 
+strong {
+  color: #17df2c;
+}
+
 .text {
   color: #FFFFFF;
   background-color: #2f4353;
