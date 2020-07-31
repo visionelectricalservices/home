@@ -59,7 +59,7 @@ background-image: linear-gradient(180deg, #1D1717 0%, #17df2c 90%);
 
 .text-list {
   color: #FFFFFF;
-  text-align: left;
+  text-align: left !important;
 }
 
 .logo {
