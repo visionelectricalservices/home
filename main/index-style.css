@@ -57,6 +57,11 @@ strong {
   border: 1px solid #777;
 }
 
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
 .text {
   color: #FFFFFF;
   background-color: #2f4353;
