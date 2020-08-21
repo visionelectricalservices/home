@@ -91,6 +91,17 @@ background-image: linear-gradient(180deg, #1D1717 0%, #17df2c 90%);
   border-top-color: #FFFFFF;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.nav::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.nav {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 .nav a {
   color: #17df2c;
   text-align: center;
