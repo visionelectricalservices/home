@@ -46,18 +46,18 @@ strong {
   color: #17df2c;
 }
 
-.gallery {
+div.gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #17df2c;
   float: left;
   width: 180px;
 }
 
-.gallery:hover {
-  border: 1px solid #777;
+div.gallery:hover {
+  border: 1px solid #17df2c;
 }
 
-.gallery img {
+div.gallery img {
   width: 100%;
   height: auto;
 }
