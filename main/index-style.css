@@ -103,3 +103,10 @@ background-image: linear-gradient(180deg, #1D1717 0%, #17df2c 90%);
   background-color: #17df2c;
   color: #1D1717;
 }
+
+.foot {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+}
