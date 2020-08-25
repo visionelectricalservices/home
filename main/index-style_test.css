@@ -1,0 +1,164 @@
+body {
+  background-color: #1D1717;
+  padding: 0px;
+  margin: 100px;
+}
+
+h1 {
+  color: #FFFFF;
+  text-align: center;
+  padding: 0px;
+  margin: 20px;
+  font-size: 50px;
+}
+
+header {
+  width: 800px;
+  margin: 40px auto;
+}
+
+p {
+  color: #FFFFFF;
+  text-align: center;
+  margin: 20px;
+  padding: 0px;
+  font-size: 30px;
+}
+
+ul {
+  color: #FFFFFF;
+  list-style: none;
+  color: #FFFFFF;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+li {
+  color: #FFFFFF; 
+  padding: 10px;
+  margin: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+a {
+  color: #17df2c;
+  text-align: center;
+}
+
+strong {
+  color: #17df2c;
+}
+
+.text {
+  color: #FFFFFF;
+  background-color: #2f4353;
+background-image: linear-gradient(180deg, #1D1717 0%, #17df2c 90%);
+  border-radius: 15px;
+}
+
+.text-paragraph {
+  color: #FFFFFF;
+}
+
+.logo {
+  height: 250px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.nav {
+  background-color: #1D1717;
+  overflow: auto;
+  padding: 0px;
+  margin: 1em;
+  text-align: center;
+  border-top-style: solid;
+  border-top-color: #FFFFFF;
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: -200px;
+}
+
+.nav a {
+  color: #17df2c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav a:hover {
+  background-color: #17df2c;
+  color: #1D1717;
+}
+
+.photobanner {
+  height: 233px;
+  width: 3550px;
+  margin-bottom: 80px;
+}
+
+.first {
+  -webkit-animation: bannermove 30s linear infinite;
+     -moz-animation: bannermove 30s linear infinite;
+      -ms-animation: bannermove 30s linear infinite;
+       -o-animation: bannermove 30s linear infinite;
+          animation: bannermove 30s linear infinite;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+}
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+}
+
+#container {
+  width: 1000px;
+  overflow: hidden;
+  margin: 50px auto;
+  background: #FFFFFF;
+}
